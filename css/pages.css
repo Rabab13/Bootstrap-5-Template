@@ -1,0 +1,215 @@
+/* About page    */
+/********************************************** */
+/* Section breadcrumb  */
+/* ********************************************** */
+.breadcrumb-container{
+    background-color: #6a040f;
+    margin-bottom:0;
+    height:130px;
+}
+.breadcrumb-container ol{
+    padding-top:80px;
+    
+
+}
+.breadcrumb-container ol a{
+    color:#686865;
+    font-weight:bold;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+/********************************************** */
+/* Section about us  */
+/* ********************************************** */
+.about-us{
+    background-color: #003049;
+    padding-top:50px;
+    margin-top:0;
+    padding-bottom: 50px;
+}
+.about-us h1{
+    color:red;
+    font-weight: bolder;
+    text-shadow:5px 20px 9px #0d0d0e;
+    font-size:60px;
+    font-family: 'Raleway', sans-serif;
+}
+.about-us p{
+    color:rgb(243, 243, 241);
+    font-family: 'Raleway', sans-serif;
+}
+
+/********************************************** */
+/* Section features  */
+/* ********************************************** */
+.features-about{
+    background-color: rgb(4, 92, 77);
+    padding-top:30px;
+}
+.features-about i{
+    margin-bottom: 15px;
+    
+}
+.features-about h3{
+    font-weight: bolder;
+    font-size:20px;
+    font-family: 'Raleway', sans-serif;
+    color:red;
+}
+.features-about p{
+    font-weight: bolder;
+
+
+}
+/********************************************** */
+/* Section About CEO */
+/* ********************************************** */
+.ceo{
+    background-color: rgb(138, 32, 32);
+    padding-top: 10px;
+    margin-top:0;
+}
+.ceo .text{
+    padding-top: 100px;
+    color:#f5f5f5;
+}
+.ceo a{
+    font-weight: bold;
+}
+@media (max-width:768px) {
+    .ceo .text{
+        padding-top: 10px;
+        color:#f5f5f5;
+    }
+    .ceo p{
+        margin-bottom: 10px;
+    }
+    .ceo a{
+        margin-top:0;
+        margin-bottom: 10px;
+    }
+
+}
+/********************************************** */
+/* Section FAQ  */
+/* ********************************************** */
+.faq{
+    background-color: #1b3a4b;
+    color:#ad0b0b;
+    margin-bottom:0;
+    padding-bottom: 40px;
+    
+}
+.faq h1{
+    padding-top: 20px;
+    color:#fcfbf9;
+    text-shadow: 10px 20px 10px #141313;
+}
+.faq p{
+    color:#fcfbf9;
+}
+
+/********************************************** */
+/* Section FAQ according */
+/* ********************************************** */
+.faq-questions{
+    background-color:#1b3a4b;
+    margin:0;
+    padding-bottom: 40px;
+
+}
+.faq-questions a{
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background-color:#660708;
+    border: 1px ridge #1b3a4b;
+    color:#ffffff;
+
+}
+.faq-questions a:hover{
+    background-color:#66070975;
+    border: 1px ridge #1b3a4b;
+    color:#ffffff;
+}
+.faq-questions i{
+    float:right;
+}
+.faq-questions .panel-body{
+    color: #ffffff;
+}
+/********************************************** */
+/* Section Ultimate Footer  */
+/* ********************************************** */
+.footer{
+    background-color:#333;
+    color:#AAA;
+    padding-top: 20px;
+    
+}
+.footer a{
+    color:#AAA;
+}
+.footer a:hover{
+    color:#ffffff;
+}
+.footer h3{
+    letter-spacing:1px;
+    margin:30px 0 20px;
+}
+.footer .three-columns{
+    overflow:hidden;
+}
+.footer .three-columns li{
+    width:33.3333%;
+    float: left;
+    padding:5px 0;
+}
+.footer .social-list{
+    overflow:hidden;
+    margin: 20px 0 10px;
+}
+.footer .social-list li{
+    margin-left: 10px;
+    opacity:0.7;
+}
+.footer .social-list li:hover{
+    opacity:1;
+}
+
+.footer .social-list li img{
+    width:40px;
+    height: auto;
+}
+.footer .flex-shrink-0 img{
+    width:70px;
+    height: auto;
+}
+.footer .d-flex {
+    margin-bottom: 5px;
+}
+.footer .flex-grow-1 {
+    font-size: 13px;
+
+}
+
+.footer .img-thumbnail{
+    background-color: #042aff79;
+    border: 1px solid rgba(24, 22, 22, 0.623);
+    margin-bottom: 5px;
+    width: 170px;
+    height: 120px;
+
+}
+.footer .copyright{
+    background-color: rgb(83, 77, 77);
+    color:#ffffff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.footer .copyright span{
+    font-weight: bold;
+}

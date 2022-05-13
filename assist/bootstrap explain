@@ -1,0 +1,51 @@
+large screen        lg
+Medium screen       md
+Small screen        sm
+Extra small screen   xs
+------------------------------------------------------------------------
+
+grid-system = 12 unit on the page
+
+class: col-lg-4
+col = column
+lg = large screen
+4 = grid of 12 grid
+
+grid have padding left and right but row haven't
+---------------------------------------------------------
+if will not write the class of any screen will use the next class screen 
+--------------------------------------------------------------------
+Grid System Hidden / Visible
+https://getbootstrap.com/docs/5.1/utilities/display/?#hiding-elements
+ class: d-md-none d-lg-block
+----------------------------------------------------------------------
+
+Clearfix
+Quickly and easily clear floated content within a container by adding a clearfix utility.
+https://getbootstrap.com/docs/5.1/helpers/clearfix/
+----------------------------------------------------------------------------
+https://getbootstrap.com/docs/5.1/layout/columns/#offsetting-columns
+Offset classes
+Move columns to the right using .offset-md-* classes. These classes increase the left margin of a column by * columns. For example, .offset-md-4 moves .col-md-4 over four columns.
+-----------------------------------------------------------------------
+Order classes
+Use .order- classes for controlling the visual order of your content. These classes are responsive, so you can set the order by breakpoint (e.g., .order-1.order-md-2). Includes support for 1 through 5 across all six grid tiers.
+class="col order-last"
+class="col order-first"
+class="col order-5"
+----------------------------------------------------------
+Responsive images
+Images in Bootstrap are made responsive with .img-fluid. This applies max-width: 100%; and height: auto; to the image so that it scales with the parent width.
+
+<img src="..." class="img-fluid" alt="...">
+
+Image thumbnails
+In addition to our border-radius utilities, you can use .img-thumbnail to give an image a rounded 1px border appearance.
+<img src="..." class="img-thumbnail" alt="...">
+
+-------------------------------------------------------------
+wow.js
+data-wow-duration: Change the animation duration
+data-wow-delay: Delay before the animation starts
+data-wow-offset: Distance to start the animation (related to the browser bottom)
+data-wow-iteration: Number of times the animation is repeated

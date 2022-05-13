@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>Javascript DOM</title>
+	<link rel="stylesheet" href="style.css" />
+    <style>
+        body{
+            height: 2000px;
+            width:2000px;
+        }
+        .hidden{
+            visibility: hidden;
+        }
+        .n-c{
+            padding:20px;
+            border:30px solid black;
+            overflow: hidden;
+            height:300px;
+            width:300px;
+            top:20px;
+            left:20px;
+            overflow: scroll;
+            direction:rtl;
+        }
+        .active{
+            background-color:blue;
+        }
+        .av{
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <article id="example">
+        welcome
+        <header>Javascript DOM</header>
+
+        <section>
+            <h1>document.images</h1>
+    <div id="img"></div>
+        <img src="../assist/avatar.jpeg" class="av">
+        <img src="../assist/avatar.jpeg" class="av">
+        <img src="../assist/avatar.jpeg" class="av">
+        <img src="../assist/avatar.jpeg" class="av">
+        <img id="image" src="../assist/avatar.jpeg" class="av">
+        <img id="imag"  class="av">
+        <div>
+        </section>
+        <section>
+            <h1>document.forms</h1>
+        <div id="form"></div>
+        <div id="form2"></div>
+        <form>
+            <input type="text" name="x1" value="abc">
+            <input type="text" name="x2" value="input">
+        </form>
+        <form>
+            <input type="text" name="z1" value="form">
+            <input type="text" name="z2" value="email">
+        </form>
+    </div>
+    </section>
+    <section>
+        <h1>document.body</h1>
+    <div id="body"></div>
+</section>
+    <section>
+        <h1>document.anchors</h1>
+        <div id="anchors"></div>
+        <a href="#">Google</a>
+        <a href="#">Google</a>
+        <a href="#">Google</a>
+        <a href="#">Google</a>
+    </section>
+    <h1>Get, Set Attribute Value</h1>
+    <img alt="" />
+
+    <div id="list" class="active show contain"></div>
+    <div id="list2" ></div>
+    <div id="list3" class="show"></div>
+    <div id="add" ></div>
+    <button id="add-class" >Add class</button>
+    <button id="remove-class" >Remove class</button>
+    <button id="toggle-class" >Toggle class</button>
+    <h1 id="text-sh-hi">visibility hidden</h1> 
+    <button id="toggle-btn-sh-hi" >Toggle class</button><br>
+    end<br>
+    <form>
+        <input id="focus" type="text">
+        <button id="focus-btn">Remove focus</button>
+    </form>
+
+    <div id="clone">
+        <p id="c-n" class="n-c">This is Clone Node</p>
+    </div>
+    <div id="clone-node">
+    </div>
+
+    <div id="new-div">
+        <p >New paragraph
+        </p>
+    </div><br>
+
+    <div id="change-color">Events to change color</div>
+    <button id="bttn" onclick="changeColor()">Change Color</button>
+    <br>
+    <br>
+    <form id="m-form">
+        <input type="text" id="input-fo" autocomplete="off">
+        <input type="submit" value="Go">
+        <div id="note"></div>
+    </form>
+    
+    <br>
+    <br>
+    <button id="hide-btn">Close</button><br>
+</article>
+<div id="note2"></div>
+<script src="../js/script/dom.js"></script>
+</body>
+</html>

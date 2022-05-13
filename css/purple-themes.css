@@ -1,0 +1,51 @@
+/* Start default themes  */
+
+.dropdown-menu {
+    border-top: 1px solid #990bdb;
+}
+
+.carousel-indicators .active,
+.option-box .color-option ul li,
+.option-box .gear-check,
+.contact-us button,
+#carouselExampleCaptions .btn-primary,
+.our-skills .btn-primary
+{
+    
+    background-color:  #990bdb;
+}
+.option-box .color-option,
+.testimonials .carousel-indicators li img,
+.contact-us button,
+#carouselExampleCaptions .btn-primary,
+.our-skills .btn-primary
+{
+    border: 2px solid  #990bdb;
+
+}
+
+.dropdown-item:hover,
+.dropdown-menu,
+.dropdown-divider,
+.about h1 span,
+.about h3 span,
+.about h4 span,
+.price-table .price-box p,
+.footer h3,
+.footer .copyright span,
+.screen,
+.field i ,
+.field h2 ,
+.field p,
+#scroll-top i,
+form.d-flex .btn,
+.hvr-pop span {
+    color:  #990bdb;
+
+}
+.price-table .price-box:hover p,
+form.d-flex .btn{
+    border:1px solid  #990bdb;
+    
+}
+

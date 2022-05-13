@@ -1,0 +1,63 @@
+/* ********************************************** */
+/* Media Query  */
+/* 768px standard for tablets and mobile screen */
+/* ********************************************** */
+/* From 768 screen to smaller screen */
+@media (max-width:768px) {
+    /* .navbar-nav{
+        background-color:rgb(17, 4, 4);
+    } */
+
+}
+@media (max-width:991px) {
+    /* .navbar-nav, .d-flex{
+        background-color:rgb(17, 4, 4);
+        
+    } */
+    .option-box i{
+        display:none;
+    }
+
+    .navbar-nav form .d-flex{
+        margin-top: 0px;
+    }
+    /* .dropdown-item:hover{
+        color: #d40931;
+        background-color:black;
+        padding-left:25px;
+        -webkit-transition:padding 0.5s ease;
+        -moz-transition:padding 0.5s ease;
+        -o-transition:padding 0.5s ease;
+        -ms-transition:padding 0.5s ease;
+        transition:padding 0.5s  ease;
+    } */
+    .navbar>.container-fluid{
+        height:40px;
+    }
+    .testimonials .carousel-item p {
+        padding: 0;
+    }
+}
+
+/* From 768 screen to larger screen */
+@media (min-width:768px) {
+    
+}
+/* small screen From 768 screen to 991 screen */
+@media (min-width:768px) and (max-width:991px) {
+    /* .about h1{
+        font-size:25px;
+    } */
+}
+/* medium screen From 991 screen to 1199 screen */
+@media (min-width:991px) and (max-width:1199px) {
+    /* .about h1{
+        font-size:25px;
+    } */
+}
+/* all large screens */
+@media (min-width:1200px) {
+    /* .about h1{
+        font-size:25px;
+    } */
+}

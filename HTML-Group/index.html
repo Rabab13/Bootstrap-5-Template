@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+
+<head>
+	<!-- if your page will use xml you have to put close tag and a capital DOCTYPE -->
+	<meta charset="utf-8" />
+	<title>HTML5</title>
+	<link rel="stylesheet" href="./css/style.css" />
+	<script src="script.js"></script>
+	<!-- instead use html5shiv.min.js file will support all browser  -->
+	<!-- [if lt IE 9] >
+            <script src="html5shiv.min.js"></script>
+            <! [endif] -->
+	
+</head>
+
+<body>
+	<!-- Header  -->
+	<header class="main">
+		<h1>HTML 5</h1> </header>
+	<!-- Navbar -->
+	<nav >
+		<ul>
+			<li class="li"><a href="#">HTML5<div id="down-triangle"></div></a>
+				<ul>
+					<li><a href="#Article-Progress">Article-Progress<div class="circle"></div></a></li>
+					<li><a href="#Section">Section-Mark-Details-Wbr<div class="circle"></div></a></li>
+					<li><a href="#Figure">Figure<div class="circle"></div></a></li>
+					<li><a href="#Time">Time-Dialog-Bdi<div class="circle"></div></a></li>
+					<li><a href="#Video">Video tag<div class="circle"></div></a></li>
+					<li><a href="#Form-input">Form-input<div class="circle"></div></a></li>
+					<li><a href="#Form-Attributes1">Form Attributes AutoComplete, AutoFocus, NoValidate , Pattern<div class="circle"></div></a></li>
+					<li><a href="#Form-Attributes2">Form Attributes Form [ Action, Method, EncType ]<div class="circle"></div></a></li>
+					<li><a href="#Form-Attributes3">Form Attributes - Readonly vs Disabled<div class="circle"></div></a></li>
+					<li><a href="#HTML-tags">HTML5 tags<div class="circle"></div></a></li>
+					<li><a href="#Datalist">Datalist<div class="circle"></div></a></li>
+					<li><a href="#Form-output">Form output<div class="circle"></div></a></li>
+					<li><a href="#Audio-tag">Audio tag<div class="circle"></div></a></li>
+				
+				</ul>
+			</li>
+			<li class="li"><a href="#">CSS3<div id="down-triangle"></div></a>
+				<ul>
+					<li><a href="#box">Box Shadow, Border Radius,Box-sizing<div class="circle"></div></a></li>
+					<li><a href="#transform">2d Transform translate / rotate/ scale / skew<div class="circle"></div></a></li>
+					<li><a href="#Matrex">Matrex<div class="circle"></div></a></li>
+					<li><a href="#3D-rotate">3D Rotate X/Y<div class="circle"></div></a></li>
+					<li><a href="#3D-Translate">3D-Translate X/Y/Z/3d<div class="circle"></div></a></li>
+					<li><a href="#3D-Scale">3D-Scale X/Y/Z/3d<div class="circle"></div></a></li>
+					<li><a href="#3D-Matrix">3D-Matrix3d<div class="circle"></div></a></li>
+					<li><a href="#3D-perspective">3D-Perspective<div class="circle"></div></a></li>
+					<li><a href="#3D-Origin">3D-Transform Origin<div class="circle"></div></a></li>
+					<li><a href="#3D-Style">3D-Transform Style<div class="circle"></div></a></li>
+					<li><a href="#flip-Card">flip Card<div class="circle"></div></a></li>
+					<li><a href="#Background">Background New Featurese<div class="circle"></div></a></li>
+					<li><a href="#Overflow"> overflowX / overflowY and Resize & Opacit<div class="circle"></div></a></li>
+					<li><a href="#Flex">Flex<div class="circle"></div></a></li>
+					<li><a href="#Transition">Transition<div class="circle"></div></a></li>
+					<li><a href="#Transition-Examples">Transition - Examples<div class="circle"></div></a></li>
+					<li><a href="#Columns">Columns<div class="circle"></div></a></li>
+					<li><a href="#Animation1">Animation Keyframes<div class="circle"></div></a></li>
+					<li><a href="#Animation2">Animation - Play State, Timing Function<div class="circle"></div></a></li>
+					<li><a href="#Animation3">Animation - Create Swing Dropdown<div class="circle"></div></a></li>
+					<li><a href="#Animation4">Animation - Create Wave Audio Loading<div class="circle"></div></a></li>
+					<li><a href="#Animation5">Animation - Create Snake Loading<div class="circle"></div></a></li>
+					<li><a href="#Selectors1">Selectors - [~ | ^ | $ | *]<div class="circle"></div></a></li>
+					<li><a href="#Selectors2">Selectors - Checked, Enabled, Disabled, Empty<div class="circle"></div></a></li>
+				</ul>
+			</li>
+			<li class="li"><a href="#">JavaScript<div id="down-triangle"></div></a>
+				<ul>
+					<li><a href="#">Variables<div class="circle"></div></a></li>
+					<li><a href="#">Datatype<div class="circle"></div></a></li>
+					<li><a href="#">Concat<div class="circle"></div></a></li>
+					<li><a href="#">if...else<div class="circle"></div></a></li>
+					<li><a href="#">Function 2 kind built in func and custom functions<div class="circle"></div></a></li>
+					<li><a href="#">Return & Parameters<div class="circle"></div></a></li>
+					<li><a href="#">if...else & Self invoke<div class="circle"></div></a></li>
+					<li><a href="#">Switch, Case, Break<div class="circle"></div></a></li>
+					<li><a href="#">Events<div class="circle"></div></a></li>
+					<li><a href="#data-type">Datatype<div class="circle"></div></a></li>
+					<li><a href="#concatenation">Concatenation<div class="circle"></div></a></li>
+					<li><a href="#if-else">if-else<div class="circle"></div></a></li>
+					<li><a href="#func-return">Func Return & Parameters<div class="circle"></div></a></li>
+					<li><a href="#self-invoke">self-invoke<div class="circle"></div></a></li>
+					<li><a href="#Switch">Switch<div class="circle"></div></a></li>
+					<li><a href="#events">Events<div class="circle"></div></a></li>
+					<li><a href="#arrayid">Array<div class="circle"></div></a></li>
+					<li><a href="#stringid">String<div class="circle"></div></a></li>
+					<li><a href="#For-Loop">For-Loop<div class="circle"></div></a></li>
+					<li><a href="#For-in-loop">For-in loop<div class="circle"></div></a></li>
+					<li><a href="#Advanced-loop">Advanced for loop<div class="circle"></div></a></li>
+					<li><a href="#Math">Math<div class="circle"></div></a></li>
+				
+
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<!-- Main content  -->
+	<main>
+		<p>This is the main content will describe your web page content</p>
+	</main>
+	<!-- Article  -->
+	<div class="post">
+		<!-- 1 -->
+		<article id="Article-Progress">
+			<header>
+				<h3>Article-Progress</h3> </header>
+			<section>
+				<p>
+					<p>Article tag contain [header tag, section tag, h1, p , ul tags].</p>
+					<br>
+					<p>Progress tag contain [value - max] attributes.</p>
+				</p>
+				<div class="progress">Download :
+					<progress value="7" max="10"> </progress>
+					<br>Feedback :
+					<progress value="3" max="10"> </progress>
+				</div>
+			</section>
+		</article>
+		<!-- 2 -->
+		<article id="Section">
+			<header>
+				<h3>Section-Mark-Details-Wbr</h3> </header>
+			<section>
+				<p>
+					<p>Section tag contain [details, h1, p , ul ] tags.</p>
+					<br>
+					<p>Mark tag will highlight the text.</p>
+					<br>
+					<p>Details tag contain [ul,li,a] tags and if you want to stay open just add open
+						<mark>&lt;details open&gt;</mark>
+					</p>
+					<br>
+					<p>wbr tag used to brake long line but has close tag.</p>
+				</p>
+				<details>
+					<ul>
+						<li> <a href="https://www.w3schools.com/html/default.asp" target="_blank">Html</a> </li>
+						<li> <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> </li>
+						<li> <a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a> </li>
+					</ul>
+				</details>
+			</section>
+		</article>
+		<!-- 3-->
+		<article id="Figure">
+			<header>
+				<h3>Figure - figcaption</h3> </header>
+			<section>
+				<figure>
+					<figcaption>Figure tag and Figcaption tag</figcaption> <code>
+                        <mark>&lt;figure&gt;</mark> Add here figcaption tag as address for figure tag 
+                        <mark>&lt;/figure&gt;</mark>
+                        </code> </figure>
+			</section>
+		</article>
+		<article id="Figure">
+			<header>
+				<h3>Figure - figcaption for image</h3> </header>
+			<section>
+				<figure class="img-fig">
+					<figcaption>Using Image in side <a href="https://www.w3schools.com/tags/tag_figure.asp" target="_blank">Figure tag</a>and <a href="https://www.w3schools.com/tags/tag_figcaption.asp" target="_blank">Figcaption tag</a> </figcaption> <img src="../assist/photo.jpg" alt="photo" title="background" /> <img src="../assist/photo.jpg" alt="photo" title="background" /> <img src="../assist/photo.jpg" alt="photo" title="background" /> </figure>
+			</section>
+		</article>
+		<!-- 4 -->
+		<article id="Time">
+			<header>
+				<h3>Time - Dialog - Bdi</h3> </header>
+			<section>
+				<p>Time tag has datetime attribute
+					<time datetime="2022-10-07 23:33:55">OCT-10-07</time>
+				</p>
+				<p>Dialog tag
+					<mark>&lt;dialog&gt;</mark>it's like comment in excl will not show without adding
+					<mark>&lt;dialog open&gt;</mark>and it's better to created by Javascript and jQuery &lt;/dialog&gt;</p>
+				<p>Bdi tag
+					<mark>&lt;bdi&gt;</mark>Isolate the usernames from the surrounding text-direction settings</p>
+				<ul class="bdi">
+					<li>Rabab : 70 point</li>
+					<li>Hussien : 80 point</li>
+					<li>
+						<bdi>رباب</bdi>: To write Arabic in same English direction</li>
+				</ul>
+			</section>
+		</article>
+		<!-- 5 -->
+		<!-- Video  -->
+		<article id="Video">
+			<header>
+				<h3>Video tag</h3> </header>
+			<section class="video" class="html">
+				<p>Video tag
+					<mark>&lt;video&gt;</mark>contain
+					<mark>&lt;source&gt;</mark>tag and
+					<mark>&lt;track&gt;</mark>tag for subtitles
+					<br>
+					<mark>&lt;video&gt;</mark>contain [controls width="" height="" autoplay loop muted poster=""preload="none" or "auto" or "metadata"] attribute
+					<br>
+					<mark>&lt;source&gt;</mark>contain src="blabla.mp3", type="video/mp4" get the type of video from <a href="https://www.sitepoint.com/mime-types-complete-list/" target="_blank">MIMI type</a>
+					<br>
+					<mark>&lt;track&gt;</mark>contain src="blabla.vtt" VTT is a format for displaying timed text tracks (such as subtitles or captions) <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API" target="_blank">WEBVTT</a>
+					<br>,kind="subtitles" and many kinds , srclang="en" <a href="https://www.tutorialspoint.com/html/language_iso_codes.htm" target="_blank">subtitle language iso code</a>,label="English" attributes.</p>
+				<video controls width="400" height="300px" autoplay loop poster="../assist/HTML.png" preload="none">
+					<source src="../assist/Block And Inline.mp4" type="video/mp4">
+					<track src="blabla.vtt" kind="subtitles" srclang="en" label="HTML">The Browser Doesn't Support Video Technology</video>
+			</section>
+		</article>
+		<!-- 6 -->
+		<!-- Form input color / Range / Number/ Email/ search/ Url/ Tel-->
+		<article id="Form-input">
+			<header>
+				<h3>Form input types color / Range / Number/ Email/ search/ Url/ Tel/ Time/Datetime/ Date/ Month/ Week</h3> </header>
+			<section>
+				<p>using to change website color or any color at the website</p>
+				<form class="color-input">
+					<label>Color input</label>
+					<input type="color" name="theme" value="#0000FF">
+					<label>Range input</label>
+					<input type="range" name="choose" min="0" max="100" step="20" value="1">
+					<label>Number input</label>
+					<input type="number" min="0" max="100" step="5" name="number">
+					<label>Email input</label>
+					<input type="email" placeholder="Mail" name="mail">
+					<label>Search input</label>
+					<input type="search" placeholder="Search" name="search">
+					<label>URL input</label>
+					<input type="url" name="link">
+					<label>Telephone input</label>
+					<input type="tel" name="tel">
+					<label>Time input</label>
+					<input type="time" name="time">
+					<label>DateTime input</label>
+					<input type="datetime-local" name="datetime">
+					<label>Date input</label>
+					<input type="date" name="date">
+					<label>Month input</label>
+					<input type="month" name="month">
+					<label>Week input</label>
+					<input type="week" name="week">
+					<input type="submit" value="send"> </form>
+			</section>
+		</article>
+		<!-- 7 -->
+		<!-- Form Attributes  AutoComplete, AutoFocus, NoValidate , Pattern-->
+		<article id="Form-Attributes1">
+			<header>
+				<h3>Form Attributes AutoComplete, AutoFocus, NoValidate , Pattern</h3> </header>
+			<section>
+				<form class="color-input">
+					<!-- Required -->
+					<p>Required attribute if website visitor will click send button without fill out the failed this
+						<br>attribute will pop massage to ask for filling out the failed
+						<mark>&lt;input type="text" required&gt;</mark>
+					</p>
+					<input type="text" name="text" placeholder="Please fill out the failed" required>
+					<input type="submit" value="send">
+					<!-- AutoFocus -->
+					<p>AutoFocus attribute on/off if you want make an input
+						<br>active to fill out when anyone visit the website choose on ex: UserName failed</p>
+					<input type="text" name="username" placeholder="UserName" > <!--autofocus="on"-->
+					<!-- AutoComplete -->
+					<p>AutoComplete attribute on/off if you don't want to make any body
+						<br>see what already have been written in input failed choose off ex: Email failed</p>
+					<input type="email" name="email" placeholder="Email" autocomplete="off">
+					<input type="submit" value="send">
+					<!-- NoValidate -->
+					<p>NoValidates attribute if you to stop input validation
+						<br>add NoValidate to the form tag ex:
+						<mark>&lt;form novalidate&gt;</mark>
+						<br>we can add it into input as
+						<mark>&lt;input formnovalidate&gt;</mark>
+					</p>
+					<input type="submit" value="send" formnovalidate>
+					<!-- Pattern -->
+					<p>Pattern attribute is an attribute of the text, tel,
+						<br>email, url, password, and search input types.</p>
+					<input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain
+                            at least one number and one uppercase and lowercase letter,
+                            and at least 8 or more characters" required min="6" max="10"> </form>
+			</section>
+		</article>
+		<!-- 8 -->
+		<!-- Form Attributes  Form [ Action, Method, EncType ]-->
+		<article id="Form-Attributes2">
+			<header>
+				<h3>Form Attributes Form [ Action, Method, EncType ]</h3> </header>
+			<section>
+				<form id="main-form" action="process.py" method="get" enctype="" class="color-input">
+					<!-- Action -->
+					<p>Action attribute responsible to send form data to
+						<br>server or to database
+						<mark>&lt;form action="process.py"&gt;</mark>if you will
+						<br>use action in side input tag
+						<mark>&lt;input formaction="file name"&gt;</mark>
+					</p>
+					<!-- Method -->
+					<p>Method attribute get/post get will view the data on website address.
+						<br>if you will use method in side input tag
+						<mark>&lt;input formmethod="get or post"&gt;</mark>
+					</p>
+					<!-- EncType -->
+					<p>EncType attribute specifies how the form-data should be encoded when submitting
+						<br>it to the server.
+						<mark>&lt;form action="process.py" enctype="multipart/form-data"&gt;</mark>
+						<br>Note: The enctype attribute can be used only if method="post":</p>
+					<ul>
+						<li class="li-head">application/x-www-form-urlencoded</li>
+						<ul>
+							<li class="li-details">Default. All characters are encoded before sent (spaces are converted to "+" symbols, and special characters are converted to ASCII HEX values)</li>
+						</ul>
+						<li class="li-head">multipart/form-data</li>
+						<ul>
+							<li class="li-details">This value is necessary if the user will upload a file through the form</li>
+						</ul>
+						<li class="li-head">text/plain</li>
+						<ul>
+							<li class="li-details">Sends data without any encoding at all. Not recommended</li>
+						</ul>
+					</ul>
+					<input type="text" name="username" placeholder="UserName" required>  <!--autofocus="on" in case of using after reload the page will start from this location-->
+					<input type="email" name="email" placeholder="Email" autocomplete="off" required>
+					<input type="submit" value="Get send">
+					<input type="submit" formaction="process1.py" formmethod="post" value="Post send"> </form>
+				<!-- Form Attributes - Form [ Target, Multiple, Placeholder ] -->
+				<p id="Form-Attributes3" class="input-out-form">Form attribute if we have input outside form tag we can add
+					<br>form attribute inside it and add the id of form tag
+					<mark>&lt;form id="main-form"&gt;</mark>
+					<br>we can add same id in the input
+					<mark>&lt;input form="main-form"&gt;</mark>
+				</p>
+				<h3>form attribute</h3>
+				<label>NickName</label>
+				<input type="text" name="nickname" form="main-form">
+				<h3>Target attribute</h3>
+				<label>Form target</label>
+				<input type="submit" formnovalidate formtarget="_blank" form="main-form" value="Submit in new windows">
+				<ol>
+					<li>_blank : The response is displayed in a new window or tab</li>
+					<li>_self : The response is displayed in the same frame (this is default)</li>
+					<li>_parent : The response is displayed in the parent frame</li>
+					<li>_top : The response is displayed in the full body of the window</li>
+					<li>framename : The response is displayed in a named iframe</li>
+				</ol>
+				<h3>Multiple, Placeholder</h3>
+				<p>Multiple attribute will allow to upload many files or write many mails in input failed</p>
+				<input type="text" placeholder="Write file name">
+				<input type="file" name="file" multiple> </section>
+		</article>
+		<!-- 9 -->
+		<!-- Form Attributes - Readonly vs Disabled -->
+		<article id="Form-Attributes4">
+			<header>
+				<h3>Form Attributes - Readonly vs Disabled</h3> </header>
+			<section>
+				<form class="read-only">
+					<label>Readonly</label>
+					<input type="text" name="read-only" value="Read-only" readonly>
+					<label>Disabled</label>
+					<input type="text" name="read-only" value="disabled" disabled>
+					<input type="submit" value="check the different"> </form>
+			</section>
+		</article>
+		<!-- 10 -->
+		<!-- CSS3 course  -->
+		<article id="box">
+			<header>CSS3 course</header>
+			<section class="css3">
+				<div class="border-Radius">CSS3 Border Radius</div>
+				<div class="box-shadow">CSS3 Box Shadow</div>
+			</section>
+			<section class="box-size">
+				<div class="box-sizing-left">CSS3 box-sizing</div>
+				<div class="box-sizing-right">CSS3 box-sizing</div>
+			</section>
+		</article>
+		<!-- 11 -->
+		<article id="css3">
+			<header>Box Shadow, Border Radius</header>
+			<section>
+				<h1 class="text-shadow">CSS3 Text-Shadow</h1> </section>
+			<section class="img"> <img src="../assist/photo.jpg">
+				<div class="overflow">This is to test white space , text-overflow and overflow</div>
+				<div class="wordwrap-div">
+					<h3>Please move the mouse over the text to disable word-wrap</h3>
+					<p class="wordwrap">This is to test word-wrap will break the text inside the div container it's as br tag but controlled by div width file:///home/hr/1%20UDACITY%20Courses/3%20Full%20Stack%20cource/1%20HTML/HTML5/index.html</p>
+				</div>
+				<!-- Transform translate / scale / skew -->
+				<section id="transform" class="div-inlineblock">
+					<h3>Please move the mouse over the text to check the scale , translate,  skew</h3>
+					<div class="container">
+						<div class="scale">2d Transform scale</div>
+						<!-- defines a transformation that resizes an element 
+                    on the 2D plane. Because the amount of scaling is defined by 
+                    a vector, it can resize the horizontal and vertical dimensions at different scales and flip photo or text-->
+					</div>
+					<div class="container">
+						<div class="translate">2d Transform Translate</div>
+						<!--  repositions an element in the horizontal and/or vertical directions -->
+					</div>
+					<div class="container">
+						<div class="rotate">2d Transform rotate</div>
+						<!-- transformation that rotates an element around a fixed
+                    point on the 2D plane, without deforming it. -->
+					</div>
+					<div class="container">
+						<div class="skew">2d Transform SKEW</div>
+						<!--that distorts each point within an element by 
+                        a certain angle in the horizontal and vertical directions -->
+					</div>
+				</section>
+			</section>
+			<section  class="div-inlineblock">
+				<div class="container">
+					<div class="transform-group-withskew">
+						<h4>Transform scale</h4>
+						<h4>Transform Translate</h4>
+						<h4>Transform SKEW</h4> </div>
+				</div>
+				<div class="container">
+					<div class="transform-group-withrotate">
+						<h4>Transform scale</h4>
+						<h4>Transform Translate</h4>
+						<h4>Transform rotate</h4> </div>
+				</div>
+			</section>
+		</article>
+		<article id="Matrex">
+			<!-- Matrex  -->
+			<header>Matrex</header>
+			<h1>Matrex is a combining group of 2d transform group</h1>
+			<section class="matrix"> <img src="../assist/dog.jpg"> </section>
+		</article>
+		<!-- 3D-Rotate  -->
+		<article id="3D-rotate">
+			<header>3D Rotate X/Y</header>
+			<h1></h1>
+			<section class="rotate-3d"> <img src="../assist/dog.jpg"> </section>
+		</article>
+		<!-- 3D-Translate -->
+		<article id="3D-Translate">
+			<header>3D-Translate X/Y/Z/3d</header>
+			<section class="translate-3d"> <img src="../assist/dog.jpg"> </section>
+		</article>
+		<!-- 3D-Scale -->
+		<article id="3D-Scale">
+			<header>3D-Scale X/Y/Z/3d</header>
+			<section class="scale-3d"> <img src="../assist/dog.jpg"> </section>
+		</article>
+		<!-- 3D-Matrix -->
+		<article id="3D-Matrix">
+			<header>3D-Matrix3d</header>
+			<section class="matrix-3d"> <img src="../assist/dog.jpg"> </section>
+		</article>
+		<!-- 3D-perspective -->
+		<article id="3D-perspective" class="perspective">
+			<header>3D-Perspective</header>
+			<h3>Perspective is the distance between the element and our eyes and the distance between the
+                    z=0 plane and the user in order to give a 3D-positioned element some perspective.</h3>
+			<section class="perspective1-3d"> <img src="../assist/ford.jpg"> </section>
+			<section class="perspective2-3d"> <img src="../assist/ford.jpg"> </section>
+			<section class="perspective3-3d"> <img src="../assist/ford.jpg"> </section>
+		</article>
+		<!-- 3D Transform - Transform Origin, Style -->
+		<article id="3D-Origin" class="transform-origin-style">
+			<header>3D-Transform Origin / Style</header>
+			<section class="transform-Origin-3d">
+				<h3>3D-Transform Origin </h3> <img src="../assist/cat.jpg"> </section>
+			<section id="3D-Style">
+				<h3>3D-Transform style</h3>
+				<div class="father">
+					<div class="child1"> </div>
+					<div class="child2"> </div>
+				</div>
+			</section>
+		</article>
+		<!-- 3D Transform - Backface Visibility -->
+		<article id="css3">
+			<section>
+				<h3>3D-Transform style</h3>
+				<div class="backface">
+					<div class="front">This is Front</div>
+					<div class="back">This is Back </div>
+				</div>
+			</section>
+		</article>
+		<!-- Create flip Card -->
+		<article id="flip-Card">
+			<header>Create flip Card</header>
+			<section>
+				<div class="card">
+					<div class="front">
+						<header> <img src="../assist/avatar.jpeg" alt="Avatar" /> </header>
+						<h3>Jack well</h3>
+						<p>web developer specializes in,the development of World Wide Web applications using a client–server model. The applications typically use HTML, CSS and JavaScript in the client, PHP, ASP.NET, Python, Node.js.</p> <span>Hover to see contacts</span> </div>
+					<div class="back">
+						<ul>
+							<li>Facebook: Jack Well</li>
+							<li>Github: Jack Well</li>
+							<li>Fiverr: Jack Well</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</article>
+		<!-- Background New Features -->
+		<article id="Background"  class="display">
+			<header>Background New Features</header>
+			<section>
+				<div class="background">
+					<h4>Background New Features details</h4> </div>
+				<div class="background-clip-padding">
+					<h4>background-clip-padding</h4> </div>
+				<div class="background-clip-content">
+					<h4>background-clip-content</h4> </div>
+				<div class="background-origin">
+					<h4>background-origin padding-box/ content-box/ </h4> </div>
+			</section>
+		</article>
+		<!-- Overflow New Features overflowX/overflowY -->
+		<article id="Overflow">
+			<header> Overflow New Features overflowX / overflowY and Resize {both-vertical-horizontal-none} & Opacity</header>
+			<section class="overflow1">
+				<div class="overflow-hidden">
+					<h4>Background New Features details</h4>
+					<h4>Background New Features details</h4>
+					<h4>Background New Features details</h4> </div>
+				<div class="overflow-scroll">
+					<h4>background-clip-padding</h4>
+					<h4>background-clip-padding</h4>
+					<h4>background-clip-padding</h4> </div>
+			</section>
+		</article>
+		<!--Flex Box -->
+		<article id="Flex">
+			<header>Flex Direction | Flex Wrapy | justify-content / flex-flow: flex-direction | flex-wrap; / Align Items | Align Content /Order | Flex Grow | Flex Shrink </header>
+			<section>
+				<div class="flex">
+					<div>Div 1Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div </div>
+					<div>Div 2Div 2Div 2Div 2Div 2Div </div>
+					<div>Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3Div 3</div>
+				</div>
+				<div class="new-container">
+					<h4>if you want create container beside this container use
+                        display inline-flex inside first container and use display
+                        inline-block inside new container</h4> </div>
+			</section>
+		</article>
+		<!-- Transition - Timing Function | Delay -->
+		<article id="Transition">
+			<header> Transition (Property)/(Duration)/(Timing func)/(Delay)- Timing Function | Delay</header>
+			<section>
+				<div class="transition">
+					<div>Ease</div>
+					<div>Linear</div>
+					<div>Ease-In</div>
+					<div>Ease-out</div>
+					<div>Ease-In-out</div>
+				</div>
+				<div class="new-container">
+					<h4></h4> </div>
+			</section>
+		</article>
+		<!-- Transition - Examples-->
+		<article id="Transition-Examples">
+			<header> Transition - Examples </header>
+			<section class="transition-ex">
+				<div>Transition - Examples</div>
+			</section>
+		</article>
+		<!-- Multi Columns - Column Count, Column Gap -->
+		<article id="Columns">
+			<header> Multi Columns - Column Count, Column Gap,Column Rule, Column Width, Column-span </header>
+			<section class="column">
+				<div>
+					<h1>Multi columns</h1> The columns CSS shorthand property sets the number of columns to use when drawing an element's contents, as well as those columns' widths.Values 'column-width'&'column-count'. 'column-count: how many column you need 4 or 3 & column-gap: space between column.&Column Rule: width border | style border| color border/ column-rule-width or column-rule-style or column-rule-color & Column Width: will divide the div to columns depending on the div width and columns width.& column-span: </div>
+			</section>
+		</article>
+		<!-- Animation -->
+		<article id="Animation1" class="size">
+			<header> Animation - Intro & Keyframes </header>
+			<section>
+				<div class="column2">
+					<h1>animation-name</h1> Specifies the name of the @keyframes at-rule describing the animation's keyframes.
+					<h1>animation-duration</h1> Configures the length of time that an animation should take to complete one cycle.
+					<h1>animation-timing-function</h1> Configures the timing of the animation; that is, how the animation transitions through keyframes, by establishing acceleration curves.
+					<h1>animation-delay</h1> Configures the delay between the time the element is loaded and the beginning of the animation sequence.
+					<h1>animation-iteration-count</h1> Configures the number of times the animation should repeat; you can specify infinite to repeat the animation indefinitely.
+					<h1>animation-direction</h1> Configures whether or not the animation should alternate direction on each run through the sequence or reset to the start point and repeat itself.
+					<h1>animation-fill-mode</h1> Configures what values are applied by the animation before and after it is executing.
+					<h1>animation-play-state</h1> Lets you pause and resume the animation sequence. </div>
+				<div class="animation"></div>
+				<div class="animation2"></div>
+			</section>
+		</article>
+		<!-- Animation - Play State, Timing Function -->
+		<article id="Animation2" class="ani">
+			<header> Animation - Play State, Timing Function</header>
+			<section> Animation shorthand: name duration timing-function delay iteration direction fill-mode play-state
+				<div class="animation3">
+					<div class="a1">Ease</div>
+					<div class="a2">Linear</div>
+					<div class="a3">Ease-In</div>
+					<div class="a4">Ease-out</div>
+					<div class="a5">Ease-In-out</div>
+				</div>
+			</section>
+		</article>
+		<!-- Animation - Create Swing Dropdown -->
+		<article id="Animation3" class="animation-dropdown">
+			<header> Animation - Create Swing Dropdown</header>
+			<section>
+				<div class="cont norm">
+					<div class="box">Check My codes on Github</div> <a href="https://github.com/Rabab13">Rabab-Ahmed</a> </div>
+				<div class="cont trans">
+					<div class="box">Chose a Gig on Fiverr</div> <a href="https://www.fiverr.com/share/4lKGgR">Rabab-Ahmed</a> </div>
+				<div class="cont anima">
+					<div class="box">Connect Me On Linkedin</div> <a href="https://www.linkedin.com/in/rabab-ahmed-fouad-89685197/">Rabab-Ahmed</a> </div>
+			</section>
+		</article>
+		<!-- Animation - Create Wave Audio Loading-->
+		<article id="Animation4" class="animation-dropdown">
+			<header>Animation - Create Wave Audio Loading</header>
+			<section>
+				<div class="loading"> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
+			</section>
+		</article>
+		<!-- Animation - Create Snake Loading-->
+		<article id="Animation5" class="animation-dropdown">
+			<header>Animation - Create Snake Loading</header>
+			<section>
+				<div class="Snake"> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
+			</section>
+		</article>
+		<!-- Selectors - Next, Start With, End With, Contains-->
+		<article id="Selectors1" class="animation-dropdown">
+			<header>Selectors - Next, Start With, End With, Contains [~ | ^ | $ | *] </header>
+			<section class="selector">
+				<div> <span>Next ~</span> <span class="start">Start With ^</span> <span class="end">End With $ </span> <span class="contain">Contains * </span> </div>
+			</section>
+		</article>
+		<!-- Selectors - Checked, Enabled, Disabled, Empty-->
+		<article id="Selectors2" class="animation-dropdown">
+			<header>Selectors - Checked, Enabled, Disabled, Empty </header>
+			<section>
+				<form class="select">
+					<input type="checkbox"> test 1
+					<input type="checkbox"> test 2
+					<input type="radio" name="browser"> Mozilla
+					<input type="radio" name="browser"> Opera
+					<input type="radio" name="browser"> Chrome
+					<input type="text">
+					<input type="text" disabled="disabled"> </form>
+				<br>
+				<br>
+				<div>
+					<p> <span></span></p>
+				</div>
+			</section>
+		</article>
+
+		<!-- JavaScript -->
+		<article  class="js" > <!-- move the autofocus to navbar after finishing for correct reload-->
+			<header>
+				JavaScript 
+			</header>
+			<section id="variables">
+				<header>Variables</header>
+				<div id="price"></div>
+				<div id="product1"></div>
+				<div id="product2"></div>
+				<div id="product3"></div>
+			</section>
+
+			<section id="data-type">
+				<header>Datatype: typeof: Array (typeof:object)/undefined/ Null(typeof: object) / NaN (not a number)/
+					Symbol/Boolean/String/Object/Number</header>
+				<p>Boolean</p>
+				<div id="boolean"></div>
+				<p>Array</p>
+				<div id="array"></div>
+				<p>Object</p>
+				<div id="object"></div>
+				<p>String</p>
+				<div id="string"></div>
+				<p>Number</p>
+				<div id="number"></div>
+			</section>
+
+			<section id="concatenation">
+				<header>Concatenation</header>
+				<div id="Concatenation"></div>
+				<div id="Concatenation2"></div>
+				<div id="Concatenation3"></div>
+				<div id="Concatenation4"></div>
+				<div id="Concatenation5"></div>
+				<h1>Add New html tag with style</h1>
+				<div id="Concatenation6"></div>
+				<h1>NaN (not a number)</h1>
+				<div id="nan"></div>
+			</section>
+
+			<section id="if-else">
+				<header>if...else</header>
+				<div id="condition1"></div>
+				<h1>comparison operator / identical operator</h1>
+				<div id="compare1">comparison operator == :compare the value </div>
+				<div id="compare2">identical operator === : compare datatype & value</div>
+				<h1>Logical Operators - And, Or, Not</h1>
+				<div id="operators1"> </div>
+				<div id="and"> </div>
+				<div id="or"> </div>
+			</section>
+
+			<section id="func">
+				<header>Function 2 kind built in func and custom functions</header>
+				<p>built in func: already exist and ready for use ex:Math.random() and custom functions: we build the func</p>
+				<button id="function" onclick="html()">Click Me</button>
+			</section>
+
+			<section id="func-return">
+				<header>Return & Parameters</header>
+				<div id="return" ></div>
+			</section>
+			<section id="self-invoke">
+				<header>if...else & Self invoke</header>
+				<h1>Convert EGP to USD</h1>
+				<input type="text" id="dollar">
+				<button onClick="convertToDollar()" id="amount">Calculate</button>
+				<div id="massage"></div>
+			</section>
+
+			<section id="Switch">
+				<header>Control Flow - Switch, Case, Break</header>
+				<h1>What is your favorite season?</h1>
+				<input type="text" id="choose">
+				<button onClick="season()" id="season">Calculate</button>
+				<div id="massage2"></div>
+			</section>
+
+		<section id="event">
+			<header>Events - onload, onclick, ondblclick ,onkeydown, onkeypress, onkeyup, onmouseover, onmouseout, onchange</header>
+			<h1>Every time window will load will appear below text</h1>
+			<div id="reload"></div>
+			<div id="click"></div>
+			<div id="dbclick"></div>
+
+			<input id="input" type="text">
+			<button id="btn" >Click me</button>
+			<div id="chang"></div>
+			<h1>onkeyup</h1>
+			<input id="input2" type="text">
+			<div id="div"></div>
+			<h1>onkeypress</h1>
+			<input id="input4" type="text">
+			<div id="div"></div>
+			<h1>onmouseover & onmouseout</h1>
+			<div id="onmouseover">Hover here</div>
+			<h1>onchange</h1>
+			<input id="input-change" type="text">
+			<select id="currency" >
+				<option value="18.14">USD</option>
+				<option value="13.81">AUD</option>
+				<option value="19.97">EUR</option>
+			</select>
+			<div id="onchange"></div>
+		</section>
+		<section id="arrayid">
+			<header>
+				Array
+			</header>
+			<h1>array.length:  </h1>
+			<p>how many array</p>
+			<div id="length"></div>
+			<div id="length2"></div>
+			<h1>array.push:</h1>
+			<p> add array at the end of the array list</p>
+			<div id="push"></div>
+			<div id="push2"></div>
+			<h1>array.unshift: </h1>
+			<p>add array at the begging of the array list</p>
+			<div id="unshift"></div>
+			<div id="unshift2"></div>
+			<h1>array.join:  </h1>
+			<p>add any letter or symbol to the array list</p>
+			<div id="join"></div>
+			<div id="join2"></div>
+			<h1>array.pop: </h1>
+			<p>remove the last  array from array list</p>
+			<div id="pop"></div>
+			<div id="pop2"></div>
+			<h1>array.shift: </h1>
+			<p>remove the fist  array from array list</p>
+			<div id="shift"></div>
+			<div id="shift2"></div>
+			<h1>array.splice:</h1>
+			<p> (index , how many 0(remove), item1(add), item2(add), item3(add))</p>
+			<div id="splice"></div>
+			<div id="splice2"></div>
+			<h1>array.sort: </h1>
+			<p>arrange array list from A to Z</p>
+			<div id="sort"></div>
+			<div id="sort2"></div>
+			<h1>array.reverse: </h1>
+			<p>arrange array list from Z to A</p>
+			<div id="reverse"></div>
+			<div id="reverse2"></div>
+			<h1>array.slice: </h1>
+				<p>will start the array list from specific number index and end number
+					slice(start, end)</p>
+			<div id="slice"></div>
+			<div id="slice2"></div>
+			<h1>array.concat: </h1>
+			<p>combine array list with new array list</p>
+			<div id="concat1"></div>
+			<div id="concat2"></div>
+			<div id="concat3"></div>
+			<h1>array.indexOf:</h1>
+				<p> search through array will print the number of the array 
+					we can add start index number to search from</p>
+			<div id="indexof"></div>
+			<div id="last"></div>
+			<h1>Check syntax typeof:</h1>
+			<p> check if array is array or not</p>
+			<div id="check-type"></div>
+			<div id="check2-type"></div>
+			<h1>array.toString: </h1>
+			<p>convert array to string</p>
+			<div id="tostring"></div>
+			<h1>array.toLocalString: </h1>
+			<p>convert Global date to local date string</p>
+			<div id="local-string"></div>
+		</section>
+
+		<section id="stringid">
+			<header>
+				String
+			</header>
+			<h1>String.length</h1>
+			<div id="string-length"></div>
+			<div id="string-length2"></div>
+			<h1>String.slice: </h1>
+				<p>(start, end) will start the string list from specific number index and end number
+					slice(start, end</p>
+			<div id="string-slice"></div>
+			<div id="string-slice2"></div> 
+			<h1>String.substr: </h1>
+				<p>(start, length) will start the string list from specific number index and end number
+					substr(start, how many letter )</p>
+			<div id="string-substr2"></div>
+			<div id="string-substr"></div>
+			<div id="string-substr3"></div>
+			<h1>String.substring: </h1>
+				<p>(start, length) will start the array list from specific number index and end number
+					substr(start, how many letter )
+					slice vs substring: will swap the small and large number if (19, 7) will act like (7, 19)
+					but slice will not swap it.</p>
+			<div id="string-substring"></div>
+			<h1>String.split:</h1>
+			<p> splitting string,split(separator, limit)</p>
+			<div id="string-split"></div>
+			<h1>String.charAt: </h1>
+			<p>print letter of index which is index number of the letters in the string list</p>
+			<div id="string-char"></div>
+			<div id="string-char2"></div>
+			<div id="string-char3"></div>
+			<h1>String.charCodeAt: </h1>
+			<p>check the unicode of letter https://unicode-table.com/en/#006F</p>
+			<div id="string-charcode"></div>
+			<div id="string-charcode2"></div>
+			<h1>String.TOLowerCase: </h1>
+			<p>convert letters to lowercase</p>
+			<div id="string-lower"></div>
+			<div id="string-lower2"></div>
+			<h1>String.TOupperCase: </h1>
+			<p>convert letter to uppercase</p>
+			<div id="string-upper"></div>
+			<div id="string-upper2"></div>
+			<h1>String.replace: </h1>
+			<p>replace string with another one or with symbol or number.</p>
+			<div id="string-replace2"></div>
+			<div id="string-replace"></div>
+			<div id="string-replace1"></div>
+			<div id="string-replace3"></div>
+			<div id="string-replace4"></div>
+			<h1>String.fromcharCode: </h1>
+			<p>writing a string using the letter unicode</p>
+			<div id="string-fromchar"></div>
+			<h1>String.trim</h1>
+			<div id="string-trim"></div>
+			<div id="string-trim2"></div>	
+			<h1>String.concat: </h1>
+			<p>combine string with another</p>
+			<div id="string-concat1"></div>
+			<div id="string-concat2"></div>
+			<div id="string-concat3"></div>
+			<h1>String.indexOf: </h1>
+				<p>search through string will print the number of the array 
+					we can add start index number to search from</p>
+			<div id="string-indexof"></div>
+			<div id="string-last"></div>
+			<h1>String.toString: </h1>
+			<p>convert any datatype to string</p>
+			<div id="string-tostring"></div>
+			<div id="string-local-string"></div>
+			<div id="string-string"></div>
+		</section>
+
+		<section id="For-Loop">
+			<header>
+				For-Loop
+			</header>
+			<div id="loop"></div>
+			<div id="loop2"></div>
+			<div id="loop3"></div>
+		</section>
+
+		<section id="For-in-loop">
+			<header>
+				For-in loop
+			</header>
+			<div id="loopin"></div>
+			<div id="loopin2"></div>
+			<div id="loopin3"></div>
+		</section>
+
+		<section id="Advanced-loop">
+			<header>
+				Advanced for loop
+			</header>
+			<div id="ad-loop"></div>
+			<div id="loopin2"></div>
+			<div id="loopin3"></div>
+		</section>
+
+		<section id="Math">
+			<header>
+				Math
+			</header>
+			<h1>Math.Ceil</h1>
+			<div id="math"></div>
+			<h1>Math.floor</h1>
+			<div id="math2"></div>
+			<h1>Math.round</h1>
+			<div id="math3"></div>
+			<div id="math4"></div>
+			<h1>Math.min</h1>
+			<div id="math5"></div>
+			<h1>Math.max</h1>
+			<div id="math6"></div>
+			<h1>Math.ceil(Math.round(x)</h1>
+			<div id="math7"></div>
+			<h1>Math.random</h1>
+			<div id="math8"></div>	
+		</section>
+
+		<section id="Date">
+			<header>
+				Date - Introduction
+			</header>
+			<div id="date"></div>
+			<div id="date1"></div>
+			<h1>Get Day</h1>
+			<div id="date2"></div>
+			<h1>Get Month</h1>
+			<div id="date3"></div>
+			<h1>Get Year</h1>
+			<div id="date4"></div>
+		</section>
+
+		<section id="Numbers">
+			<header>
+				Numbers
+			</header>
+			<h1>toExponential()</h1>
+			<div id="num"></div>
+			<h1>toFixed()</h1>
+			<div id="num2"></div>
+			<h1>parseInt()</h1>
+			<div id="num3"></div>
+
+		</section>
+	</article>
+	</div>
+	<!-- Side bar  -->
+	<aside>
+		<section id="HTML-tags">
+			<h3>HTML5 tags</h3>
+			<ul>
+				<li>header</li>
+				<li>nav</li>
+				<li>main</li>
+				<li>article</li>
+				<li>aside</li>
+				<li>footer</li>
+			</ul>
+		</section>
+		<section>
+			<h3>Inside article,aside,footer tags</h3>
+			<ul>
+				<li>section</li>
+				<li>h1,2,3,4,5,6</li>
+				<li>p</li>
+			</ul>
+		</section>
+		<!-- metars class -->
+		<section id="metars-class" class="metars">
+			<h3>metars class</h3>
+			<p>If metar low smaller or higher then the value the color will be yellow</p>
+			<div>cpu :
+				<meter min="0" max="1" value=".3" low="0.5" high=".8" optimum=".9"> </meter>
+			</div>
+		</section>
+		<!-- Datalist -->
+		<section id="Datalist" class="poll">
+			<h3>Datalist</h3>
+			<p>creating dropdown list to choose from it</p>
+			<form>
+				<input list="HTML5-tags">
+				<datalist id="HTML5-tags">
+					<option value="header">
+						<option value="article">
+							<option value="nav">
+								<option value="footer">
+									<option value="section">
+										<option value="figure">
+											<option value="figcaption">
+												<option value="time">
+													<option value="dialog">
+														<option value="bdi">
+															<option value="datalist">
+																<option value="wbr">
+				</datalist>
+				<input type="submit" value="choose"> </form>
+		</section>
+		<!-- Form output -->
+		<section id="Form-output" class="poll">
+			<h3>Form output</h3>
+			<p>using to give the calculation result ex: for age</p>
+			<form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days'">
+				<input type="text" name="age">
+				<input type="hidden" name="days" value="365">
+				<output name="result"> </output>
+			</form>
+		</section>
+		<!-- Audio Tag  -->
+		<section id="Audio-tag" class="audio">
+			<h3>Audio tag</h3>
+			<p>Audio tag
+				<mark>&lt;audio&gt;</mark>tag contain
+				<mark>&lt;source&gt;</mark>tag
+				<br>
+				<mark>&lt;audio&gt;</mark>contain [controls autoplay loop muted preload="none" or "auto" or "metadata"] attribute
+				<br>
+				<mark>&lt;source&gt;</mark>contain src="blabla.mp3", type="audio/mpeg3" get the type of audio from <a href="https://www.sitepoint.com/mime-types-complete-list/" target="_blank">MIMI type</a>
+				<br> </p>
+			<audio controls autoplay loop preload="none">
+				<source src="../assist/mix.mp3" type="audio/mpeg">The Browser Doesn't Support Audio Technology</audio>
+		</section>
+	</aside>
+	<div class="clear"> </div>
+	<!-- CANVAS & SVG -->
+	<!-- SVG  -->
+	<article id="svg">
+		<header> SVG </header>
+		<section>
+			<!-- <img src="../assist/svg.svg"> -->
+			<svg width="400" height="400">
+				<rect x="0" y="0" width="100%" height="100%" fill="black" />
+				<!-- <rect x="50" y="50" width="50%" height="50%" rx="50" ry="50" fill="red" /> -->
+				<!-- we can add the style in HTML or Css <circle style="fill:green"> -->
+				<circle r="100" cx="200" cy="200" />
+				<ellipse cx="200" cy="200" rx="50" ry="80" fill="red" />
+				<line x1="5" y1="5" x2="120" y2="120" stroke="red" stroke-width="5" />
+				<line x1="395" y1="5" x2="270" y2="120" stroke="red" stroke-width="5" />The Browser Doesn't Support SVG</svg>
+		</section>
+	</article>
+	<!-- Canvas  -->
+	<article id="canvas">
+		<header>Canvas</header>
+		<section>
+			<!-- <canvas id="canv"></canvas>
+                <canvas id="canva"></canvas> -->
+			<script src="./script/script.js"></script>
+		</section>
+	</article>
+	<!-- Footer  -->
+	<footer>copyright 2022 &copy; All rights Reserved</footer>
+	<script src="./script/scriptFunc.js"></script>
+	<script src="./script/newscript.js"></script>
+</body>
+
+</html>
